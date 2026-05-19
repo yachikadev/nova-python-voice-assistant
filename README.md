@@ -6,23 +6,23 @@ NOVA is a Python-based voice assistant that can listen to your voice commands an
 
 ## 🚀 Features
 
-* 🎤 Voice recognition using microphone
-* 🔊 Text-to-speech response
-* 🌐 Open websites (e.g., YouTube, Google)
-* 🎵 Play music from predefined library
-* 📰 Fetch latest news headlines
-* 🤖 AI fallback (handles unknown commands using OpenAI)
+- 🎤 Voice recognition using microphone
+- 🔊 Text-to-speech response
+- 🌐 Open websites (e.g., YouTube, Google)
+- 🎵 Play music from predefined library
+- 📰 Fetch latest news headlines
+- 🤖 AI fallback (handles unknown commands using OpenAI)
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Python
-* SpeechRecognition
-* pyttsx3
-* Requests
-* OpenAI API
-* NewsAPI
+- Python
+- SpeechRecognition
+- pyttsx3
+- Requests
+- OpenAI API
+- NewsAPI
 
 ---
 
@@ -36,7 +36,6 @@ NOVA-Assistant/
 │── requirements.txt
 │── README.md
 │── .gitignore
-
 └── assets/
      ├── demo.mp4
      └── screenshot.png
@@ -48,21 +47,16 @@ NOVA-Assistant/
 
 1. Clone the repository
 2. Install dependencies:
-
-```
+```bash
 pip install -r requirements.txt
 ```
-
 3. Create a `.env` file in root directory:
-
 ```
 OPENAI_API_KEY=your_openai_key
 NEWS_API_KEY=your_newsapi_key
 ```
-
 4. Run the project:
-
-```
+```bash
 python main.py
 ```
 
@@ -73,28 +67,27 @@ python main.py
 1. Run the program
 2. Say **"nova"** to activate
 3. Give commands like:
-
-   * "open youtube"
-   * "play song"
-   * "tell me news"
-   * Ask any random question (AI will respond)
+   - "open youtube"
+   - "play song"
+   - "tell me news"
+   - Ask any random question (AI will respond)
 
 ---
 
 ## ⚠️ Important Notes
 
-* Do NOT upload your `.env` file
-* Make sure your microphone is working
-* Internet connection is required for AI and news features
+- Do NOT upload your `.env` file
+- Make sure your microphone is working
+- Internet connection is required for AI and news features
 
 ---
 
 ## 📌 Future Improvements
 
-* Add memory feature
-* Improve voice accuracy
-* GUI interface (Jarvis style)
-* More command integrations
+- Add memory feature
+- Improve voice accuracy
+- GUI interface (Jarvis style)
+- More command integrations
 
 ---
 
@@ -106,4 +99,4 @@ This project is licensed under the MIT License.
 
 ## 👩‍💻 Author
 
-Developed by yachika Sharma 🚀
+Developed by **Yachika Sharma** — [@yachikadev](https://github.com/yachikadev) 🚀
